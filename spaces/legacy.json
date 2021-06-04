@@ -1088,6 +1088,20 @@
       "minScore": 0
     }
   },
+  "nurse_token": {
+    "name": "NURSE TOKEN",
+    "network": "1",
+    "symbol": "NRS",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "params": {
+          "address": "0x10c66e8266f48115b850af128c1570550cf70d07",
+          "symbol": "NRS",
+          "decimals": 4
+        }
+      }
+    ],
   "creed": {
     "name": "CREED",
     "network": "1",
